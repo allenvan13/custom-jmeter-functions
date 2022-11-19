@@ -6,7 +6,7 @@ import java.util.Random;
 
 /**
  * @author Fan QingChuan
- * @since 2022/11/19 23:24
+ * @since 2022/11/19 20:24
  */
 
 public class ChineseCharUtils {

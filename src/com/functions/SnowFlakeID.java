@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 雪花算法生成数字ID
  * @author Fan QingChuan
- * @since 2022/11/19 23:39
+ * @since 2022/11/19 20:39
  */
 
 public class SnowFlakeID extends AbstractFunction {

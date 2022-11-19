@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * 自定义文本及长度（随机补全）
  * @author Fan QingChuan
- * @since 2022/11/19 23:39
+ * @since 2022/11/19 20:39
  */
 
 public class CustomLengthText extends AbstractFunction {

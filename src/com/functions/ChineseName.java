@@ -12,7 +12,7 @@ import java.util.*;
 /**
  * 随机生成中文姓名
  * @author Fan QingChuan
- * @since 2022/11/19 23:20
+ * @since 2022/11/19 20:20
  */
 
 public class ChineseName extends AbstractFunction {

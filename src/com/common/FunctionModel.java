@@ -11,8 +11,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * 函数模板code-复制该class到functions包即可快速修改
  * @author Fan QingChuan
- * @since 2022/11/19 23:39
  */
 
 public class FunctionModel extends AbstractFunction {
