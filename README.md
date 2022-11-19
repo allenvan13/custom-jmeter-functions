@@ -1,14 +1,16 @@
 # custom-jmeter-functions
 
-#### 介绍
+#### 介绍  
     最近在做性能测试，想着扩展下函数助手（自定义函数），方便日常使用，以后不定期持续开发，欢迎朋友一起帮想想还需要哪些参数，作者空了可以更新上。
-
+    部分代码非原创，是copy过来删删改改的， 特别鸣谢原作者github名（binarywang）。
 * 开发环境：
-Java JDK 1.8以上
-Jmeter（version 5.4.1） 
+Java JDK 1.8以上  
+Jmeter（version 5.4.1）  
 
-* 项目目录层级
+
+* 项目目录层级  
 ![输入图片说明](https://foruda.gitee.com/images/1668887398525593483/5df30101_5573483.png "屏幕截图")
+
 
 #### 使用说明
 1、将lib下jar包添加进项目（Project Structure  ->  Libraries  -> +Java）
@@ -23,10 +25,11 @@ Jmeter（version 5.4.1）
 ![输入图片说明](https://foruda.gitee.com/images/1668887693650559077/f0b1f612_5573483.png "屏幕截图")
 4、Jmeter使用函数助手
 ![输入图片说明](https://foruda.gitee.com/images/1668887775618855880/5f9c626a_5573483.png "屏幕截图")
-5、类似的，很多自定义的函数都可同样的模式开发扩展。
+5、类似的，很多自定义的函数都可同样的模式开发扩展。  
+
 #### 其他
 
 1. 本人博客地址 [https://blog.csdn.net](https://blog.csdn.net/weixin_43104848?spm=1000.2115.3001.5343)
 2. 特别鸣谢相关作者及文章
-    [测试数据生成](https://github.com/binarywang/java-testdata-generator) 
-    [CSDN-JMeter之函数二次开发/插件开发](https://blog.csdn.net/u011072936/article/details/125946439)
+    * [测大部分源码出处 - Java实现的各种随机测试数据生成器](https://github.com/binarywang/java-testdata-generator) 
+    * [CSDN博客-JMeter之函数二次开发/插件开发](https://blog.csdn.net/u011072936/article/details/125946439)
