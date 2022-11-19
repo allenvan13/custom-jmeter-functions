@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author Fan QingChuan
- * @since 2022/11/19 23:37
+ * @since 2022/11/19 20:37
  */
 
 public class ChineseAreaList {

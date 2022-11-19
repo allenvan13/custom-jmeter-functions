@@ -1,8 +1,8 @@
 # custom-jmeter-functions
 
 #### 介绍  
-    最近在做性能测试，想着扩展下函数助手（自定义函数），方便日常使用，以后不定期持续开发，欢迎朋友一起帮想想还需要哪些参数，作者空了可以更新上。
-    部分代码非原创，是copy过来删删改改的， 特别鸣谢原作者github名（binarywang）。
+   最近在做性能测试，想着扩展下函数助手（自定义函数），方便日常使用，以后不定期持续开发，欢迎朋友一起帮想想还需要哪些参数，作者空了可以更新上。
+部分代码非原创，是copy过来删删改改的， 特别鸣谢原作者github名（binarywang）。
 * 开发环境：
 Java JDK 1.8以上  
 Jmeter（version 5.4.1）  
@@ -31,5 +31,6 @@ Jmeter（version 5.4.1）
 
 1. 本人博客地址 [https://blog.csdn.net](https://blog.csdn.net/weixin_43104848?spm=1000.2115.3001.5343)
 2. 特别鸣谢相关作者及文章
-    * [测大部分源码出处 - Java实现的各种随机测试数据生成器](https://github.com/binarywang/java-testdata-generator) 
+    * [部分源码出处 - Java实现的各种随机测试数据生成器](https://github.com/binarywang/java-testdata-generator) 
     * [CSDN博客-JMeter之函数二次开发/插件开发](https://blog.csdn.net/u011072936/article/details/125946439)
+    * [CSDN博客-雪花算法生成ID](https://blog.csdn.net/qq_42900213/article/details/126172808)

@@ -1,12 +1,8 @@
 package com.common;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * @author Fan QingChuan
- * @since 2022/11/20 0:21
+ * @since 2022/11/20 20:21
  */
 
 public class Email {

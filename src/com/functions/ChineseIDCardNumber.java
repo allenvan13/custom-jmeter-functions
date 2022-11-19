@@ -14,7 +14,7 @@ import java.util.*;
 /**
  * 随机生成中国身份证号
  * @author Fan QingChuan
- * @since 2022/11/19 23:39
+ * @since 2022/11/19 20:39
  */
 
 public class ChineseIDCardNumber extends AbstractFunction {

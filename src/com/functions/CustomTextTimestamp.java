@@ -13,7 +13,7 @@ import java.util.*;
 /**
  * 自定义文本（自动拼接时间戳）
  * @author Fan QingChuan
- * @since 2022/11/19 23:39
+ * @since 2022/11/19 20:39
  */
 
 public class CustomTextTimestamp extends AbstractFunction {
