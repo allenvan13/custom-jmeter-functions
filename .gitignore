@@ -34,7 +34,6 @@ bin/**
 tmp/**
 tmp/**/*
 bin/
-gen/
 logs/
 .font-spider/
 proguard/
@@ -59,7 +58,6 @@ node_modules
 *~.nib
 local.properties
 .classpath
-
 .loadpath
 .apk
 *.cache
@@ -69,13 +67,7 @@ local.properties
 *.png
 log*.txt
 *.launch
-.cproject
-.buildpath
-.DS_Store
-.sass-cache
-.directory
 
-AutoTest*.html
 mapper.xml.vm
 /shelf/
 /workspace.xml
