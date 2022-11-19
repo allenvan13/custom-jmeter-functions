@@ -5,6 +5,8 @@
 /test/
 /test-output/
 
+!lib
+
 /out/
 /META-INF/
 
