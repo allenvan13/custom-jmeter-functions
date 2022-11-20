@@ -55,7 +55,7 @@ public class ChineseMobileNumber extends AbstractFunction {
     @Override
     public void setParameters(Collection<CompoundVariable> parameters) throws InvalidVariableException {
         //校验参数个数
-        checkParameterCount(parameters,0,1);
+        checkParameterCount(parameters,0,DESC.size());
         //将值存入变量中
         Object[] values = parameters.toArray();
         if (values.length > 0) {
