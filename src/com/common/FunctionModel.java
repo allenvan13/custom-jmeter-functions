@@ -17,11 +17,11 @@ import java.util.List;
 
 public class FunctionModel extends AbstractFunction {
 
-    //function名称
+    //函数名称 及 函数备注描述
     private static final String KEY = "___FunctionModel";
     private static final List<String> DESC = new LinkedList<>();
 
-    //自定义function的参数描述
+    //函数（参数）描述
     static {
         DESC.add("参数说明1,多个多行");
         DESC.add("参数说明2,多个多行");

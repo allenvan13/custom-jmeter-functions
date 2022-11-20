@@ -22,14 +22,15 @@ import java.util.Random;
 
 public class RandomAmount extends AbstractFunction {
 
-    //function名称
+    //函数名称 及 函数备注描述
     private static final String KEY = "___RandomAmount";
     private static final List<String> DESC = new LinkedList<>();
 
-    private double limit;
-    private int scale;
+    //默认最大值 及 小数位数
+    private double limit = 99999999.9999;
+    private int scale = 4;
 
-    //自定义function的参数描述
+    //函数（参数）描述
     static {
         DESC.add("随机数量(金额) -参数1-最大值不包括这个数 ");
         DESC.add("随机数量(金额) -参数2-保留小数位数 ");
@@ -49,7 +50,7 @@ public class RandomAmount extends AbstractFunction {
     }
 
     /**
-     * 设置用户输入的参数
+     * 设置解析用户输入的参数
      * @param parameters
      * @throws InvalidVariableException
      */
@@ -66,13 +67,14 @@ public class RandomAmount extends AbstractFunction {
 
             String scale = ((CompoundVariable) values[1]).execute();
             this.scale = ObjectUtils.isNotEmpty(scale) ? Integer.parseInt(scale) : 4;
-        }else {
-            this.limit = 99999999.9999;
-            this.scale = 4;
         }
 
     }
 
+    /**
+     * 获取KEY-Jmeter函数助手展示名称为该KEY
+     * @return
+     */
     @Override
     public String getReferenceKey() {
         return KEY;

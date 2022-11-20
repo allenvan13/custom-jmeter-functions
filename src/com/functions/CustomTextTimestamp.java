@@ -22,7 +22,7 @@ public class CustomTextTimestamp extends AbstractFunction {
     private static final String KEY = "___CustomTextTimestamp";
     private static final List<String> DESC = new LinkedList<>();
 
-    private String prefixString;
+    private String prefixString = "默认中文前缀: ";
 
     //自定义function的参数描述
     static {
@@ -57,9 +57,7 @@ public class CustomTextTimestamp extends AbstractFunction {
 
         if (values.length > 0) {
             String prefixString = ((CompoundVariable) values[0]).execute();
-            this.prefixString = ObjectUtils.isNotEmpty(prefixString) ? prefixString : "中文文字: ";
-        }else {
-            this.prefixString = "中文文字: ";
+            this.prefixString = ObjectUtils.isNotEmpty(prefixString) ? prefixString : "默认中文前缀: ";
         }
     }
 
