@@ -16,6 +16,27 @@ public class ProviderFile {
      */
     private String fileName;
 
+    /**
+     * 文件大小
+     */
+    private Double fileSize;
+    /**
+     * 文件地址
+     */
+    private String fileUrl;
+    /**
+     * 供应商编码
+     */
+    private String providerCode;
+    /**
+     * 业务id
+     */
+    private Long businessId;
+    /**
+     * 文件类型
+     */
+    private String fileType;
+
     public String getFileName() {
         return fileName;
     }
@@ -64,25 +85,5 @@ public class ProviderFile {
         this.fileType = fileType;
     }
 
-    /**
-     * 文件大小
-     */
-    private Double fileSize;
-    /**
-     * 文件地址
-     */
-    private String fileUrl;
-    /**
-     * 供应商编码
-     */
-    private String providerCode;
-    /**
-     * 业务id
-     */
-    private Long businessId;
-    /**
-     * 文件类型
-     */
-    private String fileType;
 }
 
